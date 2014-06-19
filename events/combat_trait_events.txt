@@ -1,24 +1,23 @@
 ###################################
 ######Combat Trait Events##########
-###Event Numbers 5550100-5551100###
 ###################################
-
-###Credits to Galla (Greg) for coming up with 99% of these;
-#5550100 - Learning the sword from your guardian. (lvl-1)
-#5550101 - Learning the sword from your guardian. (lvl-2)
-#5550102 - Learning the sword from your guardian. (lvl-3)
-#5550103 - Learning the sword from your guardian. (lvl-4)
-#5550114 - Maintenance, Dealing with multiple combat skill traits. [Disabled]
-###Oga Stuff###
-#5550105 - Guardian Notification. (For all lvl's)
-###Demotions
-#5550112 - Getting old.
-
-##################################
 
 namespace = duel_cte
 
-#5550100 - Learning the sword from your guardian
+###Credits to Galla (Greg) for coming up with 99% of these;
+# 0 - Learning the sword from your guardian. (lvl-1)
+# 1 - Learning the sword from your guardian. (lvl-2)
+# 2 - Learning the sword from your guardian. (lvl-3)
+# 3 - Learning the sword from your guardian. (lvl-4)
+###Oga Stuff###
+# 4 - Guardian Notification. (For all lvl's)
+###Demotions
+# 5 - Getting old.
+
+##################################
+
+##########
+# 0- Learning the sword from your guardian
 character_event = {
 	id = duel_cte.0
 	desc = "EVTDESC550100"
@@ -153,7 +152,8 @@ character_event = {
 	}
 }
 
-#5550101 - Learning the sword from your guardian. (lvl-2)
+#########
+# 1- Learning the sword from your guardian. (lvl-2)
 character_event = {
 	id = duel_cte.1
 	desc = "EVTDESC550101" # You show a promising talent for swordplay.
@@ -286,7 +286,8 @@ character_event = {
 	}
 }
 
-#5550102 - Learning the sword from your guardian. (lvl-3)
+#########
+# 2- Learning the sword from your guardian. (lvl-3)
 character_event = {
 	id = duel_cte.2
 	desc = "EVTDESC550101"
@@ -409,7 +410,8 @@ character_event = {
 	}
 }
 
-#5550103 - Learning the sword from your guardian. (lvl-3)
+###########
+# 3- Learning the sword from your guardian. (lvl-3)
 character_event = {
 	id = duel_cte.3
 	desc = "EVTDESC550103" # You have truly mastered the art of combat.
@@ -522,7 +524,8 @@ character_event = {
 	
 }
 
-#5550105 - Guardian Notification. (For all lvls)
+##############
+# 4- Guardian Notification. (For all lvls)
 character_event = {
 	id = duel_cte.4
 	desc = "EVTDESC5550105" #I have increased my ward's fighting skills.
@@ -558,7 +561,7 @@ character_event = {
 #}
 
 ###Demotions###
-#5550112 - Getting old.
+# 5 - Getting old.
 character_event = {
 	id = duel_cte.5
 	desc = "EVTDESC5550112"
